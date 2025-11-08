@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "TLDR Forwarder",
+  "version": "1.0",
+  "description": "Redirects TLDR tracking URLs to their original destinations.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://tracking.tldrnewsletter.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
+
